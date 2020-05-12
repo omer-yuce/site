@@ -1,0 +1,6 @@
+.pt_plus_animated_svg{display:inline-block;overflow:hidden;  z-index: 1;}
+.pt_plus_animated_svg_bkg{display:inline-block;overflow:hidden; z-index: 0;}
+.pt_plus_animated_svg:hover{overflow:hidden;}
+.pt_plus_animated_svg.center .svg_inner_block{display:inline-block;margin:0 auto;}
+.pt_plus_animated_svg-overlay:hover {z-index: 998;}
+.asvg {display:inline-block;z-index: 999;  isolation: isolate;}

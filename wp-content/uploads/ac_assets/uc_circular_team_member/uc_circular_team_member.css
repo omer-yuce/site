@@ -1,0 +1,73 @@
+.uc_circular_team_member *{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;	
+}
+.uc_circular_team_member .uc_ctm_container {
+	overflow: hidden;
+}
+.uc_circular_team_member .uc_ctm_overlay,
+.uc_circular_team_member .uc_ctm_container_image{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	position: relative;
+}
+.uc_circular_team_member .uc_ctm_container_image img {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+.uc_circular_team_member .uc_ctm_container_image:before {
+	position: absolute;
+	background: rgba(47,47,47,0.9);
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	content: "";
+	display: block;
+	opacity: 0;
+	transition: opacity 0.25s ease-in-out;
+}
+.uc_circular_team_member .uc_ctm_social_links {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+	transition: opacity 0.25s ease-in-out;
+	opacity: 0;
+}
+.uc_circular_team_member .uc_ctm_container:hover .uc_ctm_container_image:before,
+.uc_circular_team_member .uc_ctm_container:hover .uc_ctm_social_links{
+	opacity: 1;
+}
+.uc_circular_team_member .uc_ctm_social_links a {
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	margin: 0 10px;
+}
+.uc_circular_team_member .uc_ctm_social_links a:hover {
+	color: #00b4ff;
+}
+.uc_circular_team_member .uc_ctm_name {
+	text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0 0;
+}
+.uc_circular_team_member .uc_ctm_name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0 0;
+}
+.uc_circular_team_member .uc_ctm_designation {
+	text-align: center;
+    padding: 10px 0 0;
+	color: #00b4ff;
+}

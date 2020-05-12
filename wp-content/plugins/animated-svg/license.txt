@@ -1,0 +1,12 @@
+License
+
+Unless otherwise stated, http://animated-svg.com own the intellectual property rights for all material in Animated-SVG for Elementor Page builder WordPress plugin. You may access them in these terms and conditions.
+
+You may:
+
+- use these icons in one commercial or personal project.
+- customize the color, shape, size, and file format of the icons to better serve your commercial and personal projects.
+
+You may NOT:
+- sell, rent or sub-license material from Animated-SVG for Elementor Page builder WordPress plugin.
+- reproduce, duplicate or copy material from Animated-SVG for Elementor Page builder WordPress plugin.
